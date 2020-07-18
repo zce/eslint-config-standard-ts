@@ -24,7 +24,7 @@
     "email": "w@zce.me",
     "url": "https://zce.me"
   },
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "update": "npm i @typescript-eslint/eslint-plugin eslint-config-standard-with-typescript eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard",
     "prepare": "npm run update"

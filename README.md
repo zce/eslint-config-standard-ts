@@ -20,7 +20,7 @@ $ yarn add eslint eslint-config-standard-ts -dev
 
 ## Usage
 
-in your eslint config
+In your eslint config:
 
 ```javascript
 // .eslintrc.js
@@ -30,6 +30,12 @@ module.exports = {
     project: './tsconfig.json'
   }
 }
+```
+
+Example command line usage for ESLint v7:
+
+```shell
+$ npx eslint .
 ```
 
 ## Motivation
