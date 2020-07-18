@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config-standard-ts",
+  "version": "18.0.2",
+  "description": "An extension of eslint-config-standard, made for TypeScript.",
+  "keywords": [
+    "eslint-config-standard-ts",
+    "zce"
+  ],
+  "homepage": "https://github.com/zce/eslint-config-standard-ts#readme",
+  "bugs": {
+    "url": "https://github.com/zce/eslint-config-standard-ts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/eslint-config-standard-ts.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "zce",
+    "email": "w@zce.me",
+    "url": "https://zce.me"
+  },
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8.6"
+  }
+}
