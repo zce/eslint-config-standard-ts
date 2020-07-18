@@ -1,9 +1,13 @@
 {
   "name": "eslint-config-standard-ts",
-  "version": "18.0.2",
+  "version": "0.1.0",
   "description": "An extension of eslint-config-standard, made for TypeScript.",
   "keywords": [
     "eslint-config-standard-ts",
+    "eslint-config-standard",
+    "typescript",
+    "standard",
+    "eslint",
     "zce"
   ],
   "homepage": "https://github.com/zce/eslint-config-standard-ts#readme",
@@ -21,20 +25,26 @@
     "url": "https://zce.me"
   },
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
-  ],
   "scripts": {
-    "lint": "standard --fix"
+    "update": "npm i @typescript-eslint/eslint-plugin eslint-config-standard-with-typescript eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-standard",
+    "prepare": "npm run update"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "standard": "^14.3.4"
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
   },
   "engines": {
     "node": ">=8.6"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   }
 }

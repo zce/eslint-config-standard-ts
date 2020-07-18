@@ -12,40 +12,25 @@
 ## Installation
 
 ```shell
-$ npm install eslint-config-standard-ts
+$ npm install eslint eslint-config-standard-ts --save-dev
 
 # or yarn
-$ yarn add eslint-config-standard-ts
+$ yarn add eslint eslint-config-standard-ts -dev
 ```
 
 ## Usage
 
-<!-- TODO: Introduction of API use -->
+in your eslint config
 
 ```javascript
-const eslintConfigStandardTs = require('eslint-config-standard-ts')
-const result = eslintConfigStandardTs('zce')
-// result => 'zce@zce.me'
+// .eslintrc.js
+module.exports = {
+  extends: 'standard-ts',
+  parserOptions: {
+    project: './tsconfig.json'
+  }
+}
 ```
-
-## API
-
-<!-- TODO: Introduction of API -->
-
-### eslintConfigStandardTs(name[, options])
-
-#### name
-
-- Type: `string`
-- Details: name string
-
-#### options
-
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'zce.me'`
 
 ## Contributing
 
