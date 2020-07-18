@@ -40,7 +40,7 @@ My idea is to ignore these problems 😅, and install these peer dependencies di
 
 Because I think these problems no longer exist in modern npm.
 
-So this module is just a dependencies wrapper, internal use of eslint-config-standard-with-typescript and its peer dependencies.
+So this module is just a dependencies wrapper, internal use of [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript) and its peer dependencies.
 
 ## Contributing
 
