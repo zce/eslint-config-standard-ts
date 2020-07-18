@@ -32,6 +32,14 @@ module.exports = {
 }
 ```
 
+## Motivation
+
+Due to [a known limitation in ESLint](https://github.com/eslint/eslint/issues/3458). Many [ESLint shareable config](https://eslint.org/docs/developer-guide/shareable-configs) require a large number of peer dependencies. This leads to many inconveniences for developers to use.
+
+My idea is to ignore these problems 😅, and rely install these peer dependencies directly.
+
+So this module is just a dependencies wrapper, internal use of eslint-config-standard-with-typescript and its peer dependencies.
+
 ## Contributing
 
 1. **Fork** it on GitHub!
