@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-ts",
-  "version": "18.0.2",
+  "version": "19.0.1",
   "description": "An extension of eslint-config-standard, made for TypeScript.",
   "keywords": [
     "eslint-config-standard-ts",
