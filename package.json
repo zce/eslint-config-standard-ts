@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-standard-ts",
-  "version": "20.0.1",
+  "version": "21.0.0",
   "description": "An extension of eslint-config-standard, made for TypeScript.",
   "keywords": [
     "eslint-config-standard-ts",
@@ -23,14 +23,14 @@
     ]
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.29.0",
-    "eslint-config-standard-with-typescript": "^20.0.0",
-    "eslint-plugin-import": "^2.24.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": "^8.0.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
